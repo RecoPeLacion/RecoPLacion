@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.rbr_container {
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  background-image: url(../../public/bodybg.svg);
+  background-color: #161616;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #8A8A8A;
+}
+
+a {
+  text-decoration: none;
+  color: #8A8A8A;
+  transition: all .3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #DCDCDC;
+}
